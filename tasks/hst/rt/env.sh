@@ -1,0 +1,1 @@
+export SOURCED_ENV_FILE=1
