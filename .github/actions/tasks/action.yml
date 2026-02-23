@@ -11,6 +11,7 @@ runs:
   steps:
     - name: Run
       run: |
-        bash tasks/task.sh ${{ inputs.task-path }}
+        cd tasks
+        bash task.sh ${{ inputs.task-path }}
       shell: bash
 
